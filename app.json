@@ -1,8 +1,8 @@
 {
-  "name": "DaisyXMusic",
+  "name": "OdaXMusic",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/TeamDaisyX/DaisyXMusic",
+  "repository": "https://github.com/UserLazy/Oda_Music",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -25,12 +25,12 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "DaisySupport_Official"
+      "value": "OdaSupport"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "DaisyXMusic v4"
+      "value": "OdaXMusic"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -39,17 +39,17 @@
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
       "required": false,
-      "value": "VKSSQH-SRNJYZ-MSOJAI-QALESR-ARQ"
+      "value": ""
     },    
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": " https://telegra.ph/file/dcfdf612e499eef0e0b1f.png"
+      "value": "https://telegra.ph/file/528a191ddf0dd2f83e660.jpg"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "DaisyXupdates"
+      "value": "animechanelindo"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
@@ -58,7 +58,7 @@
     "PMPERMIT": {
       "description": "Change to turn off",
       "required": false,
-      "value": "ENABLE"
+      "value": "DISABLE"
     },    
     "API_HASH": {
       "description": "App hash from my.telegram.org/apps",
@@ -71,7 +71,7 @@
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "10"
+      "value": "5000"
     }
   }
 }
