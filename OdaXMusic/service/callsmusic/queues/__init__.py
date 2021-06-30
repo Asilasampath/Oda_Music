@@ -1,4 +1,4 @@
-from DaisyXMusic.services.callsmusic.queues.queues import (
+from OdaXMusic.services.callsmusic.queues.queues import (
     clear,
     get,
     is_empty,
