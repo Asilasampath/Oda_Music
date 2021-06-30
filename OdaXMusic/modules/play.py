@@ -1,5 +1,5 @@
 # Daisyxmusic (Telegram bot project)
-# Copyright (C) 2021  Inukaasith
+# Copyright (C) 2021  OdaXMusic
 # Copyright (C) 2021  TheHamkerCat (Python_ARQ)
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -33,23 +33,23 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
-from DaisyXMusic.config import ARQ_API_KEY
-from DaisyXMusic.config import BOT_NAME as bn
-from DaisyXMusic.config import DURATION_LIMIT
-from DaisyXMusic.config import UPDATES_CHANNEL as updateschannel
-from DaisyXMusic.config import que
-from DaisyXMusic.function.admins import admins as a
-from DaisyXMusic.helpers.admins import get_administrators
-from DaisyXMusic.helpers.channelmusic import get_chat_id
-from DaisyXMusic.helpers.errors import DurationLimitError
-from DaisyXMusic.helpers.decorators import errors
-from DaisyXMusic.helpers.decorators import authorized_users_only
-from DaisyXMusic.helpers.filters import command, other_filters
-from DaisyXMusic.helpers.gets import get_file_name
-from DaisyXMusic.services.callsmusic import callsmusic, queues
-from DaisyXMusic.services.callsmusic.callsmusic import client as USER
-from DaisyXMusic.services.converter.converter import convert
-from DaisyXMusic.services.downloaders import youtube
+from OdaXMusic.config import ARQ_API_KEY
+from OdaXMusic.config import BOT_NAME as bn
+from OdaXMusic.config import DURATION_LIMIT
+from OdaXMusic.config import UPDATES_CHANNEL as updateschannel
+from OdaXMusic.config import que
+from OdaXMusic.function.admins import admins as a
+from OdaXMusic.helpers.admins import get_administrators
+from OdaXMusic.helpers.channelmusic import get_chat_id
+from OdaXMusic.helpers.errors import DurationLimitError
+from OdaXMusic.helpers.decorators import errors
+from OdaXMusic.helpers.decorators import authorized_users_only
+from OdaXMusic.helpers.filters import command, other_filters
+from OdaXMusic.helpers.gets import get_file_name
+from OdaXMusic.services.callsmusic import callsmusic, queues
+from OdaXMusic.services.callsmusic.callsmusic import client as USER
+from OdaXMusic.services.converter.converter import convert
+from OdaXMusic.services.downloaders import youtube
 
 aiohttpsession = aiohttp.ClientSession()
 chat_id = None
@@ -454,7 +454,7 @@ async def play(_, message: Message):
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name}Oda Nobunaga not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
+            f"<i> {user.first_name}I'm not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
         )
         return
     message.from_user.id
@@ -516,7 +516,7 @@ async def play(_, message: Message):
     elif urls:
         query = toxt
         await lel.edit("🎵 **Processing**")
-        ydl_opts = {"format": "bestaudio[ext=m4a]"}
+        ydl_opts = {"format": "bestaudio[ext=mp3]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -560,7 +560,7 @@ async def play(_, message: Message):
             query += " " + str(i)
         print(query)
         await lel.edit("🎵 **Processing**")
-        ydl_opts = {"format": "bestaudio[ext=m4a]"}
+        ydl_opts = {"format": "bestaudio[ext=mp3]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -648,7 +648,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "OdaMusic"
     usar = user
     wew = usar.id
     try:
@@ -776,7 +776,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "OdaMusic"
     usar = user
     wew = usar.id
     try:
@@ -820,7 +820,7 @@ async def jiosaavn(client: Client, message_: Message):
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            "<i> Prinz Eugen not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
+            "<i> Assistent not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
         )
         return
     requested_by = message_.from_user.first_name
