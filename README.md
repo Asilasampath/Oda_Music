@@ -5,7 +5,7 @@
 ### Available on telegram as [@OdaRobot](https://t.me/OdaRobot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/528a191ddf0dd2f83e660.jpg">
+  <img src="https://images8.alphacoders.com/837/837707.png">
 </p>
 
 <h2> Features 🔥 </h2>
