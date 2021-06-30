@@ -1,4 +1,4 @@
-# DAISYXMUSIC- Telegram bot project
+# OdaXMusic- Telegram bot project
 # Copyright (C) 2021  Roj Serbest
 # Copyright (C) 2021  Inuka Asith
 # This program is free software: you can redistribute it and/or modify
@@ -13,7 +13,7 @@
 #
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# Modified by Inukaasith
+# Modified by UserLazy
 
 import os
 from os import getenv
@@ -42,5 +42,4 @@ ARQ_API_KEY = getenv("ARQ_API_KEY", None)
 PMPERMIT = getenv("PMPERMIT", None)
 LOG_GRP = getenv("LOG_GRP", None)
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
-
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
