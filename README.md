@@ -34,14 +34,14 @@ Get pyrogram (p)  `SESSION` from here:
 ```sh
 # Install Git First (apt-instll git)
 $ git clone https://github.com/UserLazy/Oda_Music
-$ cd DaisyXMusic
+$ cd OdaXMusic
 # Upgrade sources
 # Install All Requirements 
 $ pip(3) install -r requirements.txt
 # Rename example.env to local.env and fill
 $ npm i -g npm
 # Start Bot 
-$ python(3) -m DaisyXMusic
+$ python(3) -m OdaXMusic
 ```
 
 ### Commands for Group 🛠
@@ -94,8 +94,6 @@ If you donlt like to play in linked channel:
  5. Simply send commands in your group.
 
 ### Commands for Sudo Users ⚔️
-- `/userbotleaveall` - remove assistant from all chats
-- `/gcast <reply to message>` - globally brodcast replied message to all chats
 - `/pmpermit [on/off]` - enable/disable pmpermit message
 
 #### Pmpermit
@@ -112,6 +110,7 @@ Don't edit this part
 This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork OdaXMusicusic won't exist. 
 
 #### Contribtors
+- [UserLazy](https://github.com/UserLazy): Dev
 - [InukaASiTH](https://github.com/InukaAsith): Dev
 - [Rojserbest](http://github.com/rojserbes): Dev
 - [Wrench](https://github.com/EverythingSuckz/): Dev
