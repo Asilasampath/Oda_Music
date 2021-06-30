@@ -1,5 +1,5 @@
-# Daisyxmusic (Telegram bot project )
-# Copyright (C) 2021  Inukaasith
+# OdaXMusic (Telegram bot project )
+# Copyright (C) 2021  UserLazy
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -16,10 +16,10 @@
 
 from pyrogram import Client
 import asyncio
-from DaisyXMusic.config import SUDO_USERS, PMPERMIT
+from OdaXMusic.config import SUDO_USERS, PMPERMIT
 from pyrogram import filters
 from pyrogram.types import Message
-from DaisyXMusic.services.callsmusic.callsmusic import client as USER
+from OdaXMusic.services.callsmusic.callsmusic import client as USER
 
 PMSET =True
 pchats = []
