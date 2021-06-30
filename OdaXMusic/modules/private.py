@@ -1,5 +1,5 @@
-# Daisyxmusic (Telegram bot project )
-# Copyright (C) 2021  Inukaasith
+# OdaXMusic(Telegram bot project )
+# Copyright (C) 2021  UserLazy
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -15,18 +15,18 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import logging
-from DaisyXMusic.modules.msg import Messages as tr
+from OdaXMusic.modules.msg import Messages as tr
 from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
 from pyrogram.types import Message
-from DaisyXMusic.config import SOURCE_CODE
-from DaisyXMusic.config import ASSISTANT_NAME
-from DaisyXMusic.config import PROJECT_NAME
-from DaisyXMusic.config import SUPPORT_GROUP
-from DaisyXMusic.config import UPDATES_CHANNEL
-from DaisyXMusic.config import BOT_USERNAME
+from OdaXMusic.config import SOURCE_CODE
+from OdaXMusic.config import ASSISTANT_NAME
+from OdaXMusic.config import PROJECT_NAME
+from OdaXMusic.config import SUPPORT_GROUP
+from OdaXMusic.config import UPDATES_CHANNEL
+from OdaXMusic.config import BOT_USERNAME
 logging.basicConfig(level=logging.INFO)
 
 @Client.on_message(filters.private & filters.incoming & filters.command(['start']))
