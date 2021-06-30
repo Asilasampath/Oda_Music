@@ -1,4 +1,4 @@
-# OdaXMusic (Telegram bot project)
+# OdaXMusic (Telegram Music bot project)
 # Copyright (C) 2021  UserLazy & Rojserbest
 
 # This program is free software: you can redistribute it and/or modify
