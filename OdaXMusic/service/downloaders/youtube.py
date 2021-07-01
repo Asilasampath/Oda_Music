@@ -24,7 +24,7 @@ from OdaXMusic.config import DURATION_LIMIT
 from OdaXMusic.helpers.errors import DurationLimitError
 
 ydl_opts = {
-    "format": "bestaudio[ext=mp3]",
+    "format": "bestaudio[ext=m4a]",
     "geo-bypass": True,
     "nocheckcertificate": True,
     "outtmpl": "downloads/%(id)s.%(ext)s",
