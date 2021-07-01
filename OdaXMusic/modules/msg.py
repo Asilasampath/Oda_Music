@@ -18,10 +18,10 @@ from OdaXMusic.config import ASSISTANT_NAME, PROJECT_NAME
 
 
 class Messages:
-    await message.reply_sticker(
+    START_MSG = await message.reply_sticker(
         "CAACAgUAAxkBAAEOycBglaXxgN1VWNe8UMwECeyPxxhkDQACzQEAAvFQKFSmX8Ai5gisyh8E"
     )
-    START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
+    "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
     HELP_MSG = [
         ".",
         f"""
