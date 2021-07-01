@@ -667,7 +667,7 @@ async def deezer(client: Client, message_: Message):
                     await USER.join_chat(invitelink)
                     await USER.send_message(
                         message_.chat.id,
-                        "Eugen joined this group for playing music in VC",
+                        "Assisten joined this group for playing music in VC",
                     )
                     await lel.edit(
                         "<b>Helper userbot joined your chat</b>",
@@ -795,7 +795,7 @@ async def jiosaavn(client: Client, message_: Message):
                     await USER.join_chat(invitelink)
                     await USER.send_message(
                         message_.chat.id,
-                        "Eugen joined this group for playing music in VC",
+                        "Assisten joined this group for playing music in VC",
                     )
                     await lel.edit(
                         "<b>Helper userbot joined your chat</b>",
