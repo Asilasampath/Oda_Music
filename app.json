@@ -42,9 +42,9 @@
       "value": ""
     },    
     "BG_IMAGE": {
-      "description": "BG image of bot search on https://images2.alphacoders.com/ don't telegra.ph",
+      "description": "BG image of bot",
       "required": false,
-      "value": "https://images2.alphacoders.com/539/53920.jpg"
+      "value": "https://telegra.ph/file/6f1dd60ffd08f923e07c1.jpg"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
