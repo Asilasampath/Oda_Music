@@ -15,6 +15,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # port from https://github.com/TeamDaisyX/DaisyXMusic/blob/ec7ef858850511b37f25a16beb5639a183c5348f/DaisyXMusic/modules/song.py
+# any inspiration from https://github.com/UsergeTeam/Userge/blob/alpha/userge/plugins/misc/utube.py
 
 from __future__ import unicode_literals
 
@@ -229,6 +230,7 @@ def time_formatter(milliseconds: int) -> str:
 ydl_opts = {
     "format": "bestaudio/best",
     "writethumbnail": True,
+    'prefer_ffmpeg': True,
     "postprocessors": [
         {
             "key": "FFmpegExtractAudio",
