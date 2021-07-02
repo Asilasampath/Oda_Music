@@ -230,7 +230,7 @@ def time_formatter(milliseconds: int) -> str:
 ydl_opts = {
     "format": "bestaudio/best",
     "writethumbnail": True,
-    'prefer_ffmpeg': True,
+    "prefer_ffmpeg": True,
     "postprocessors": [
         {
             "key": "FFmpegExtractAudio",
