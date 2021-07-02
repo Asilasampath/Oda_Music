@@ -28,9 +28,9 @@ jobs:
           black .
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'Auto Fixes: Code formatted'
+          commit_message: 'pylint: auto fixe formated'
           commit_options: '--no-verify'
           repository: .
           commit_user_name: UserLazy
           commit_user_email: rxymex@gmail.com
-          commit_author: UserLazy <ihsanzcoki@gmail.com>
+          commit_author: UserLazy <rxymex@gmail.com>
